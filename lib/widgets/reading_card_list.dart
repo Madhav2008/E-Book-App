@@ -9,8 +9,6 @@ class ReadingListCard extends StatelessWidget {
   final String title;
   final String auth;
   final double rating;
-  final Function pressDetails;
-  final Function pressRead;
 
   const ReadingListCard({
     Key? key,
