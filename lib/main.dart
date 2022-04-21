@@ -50,7 +50,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                   TextSpan(
                     text: "go.",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold,),
                   ),
                 ],
               ),
