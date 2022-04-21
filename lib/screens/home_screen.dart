@@ -49,6 +49,7 @@ class HomeScreen extends StatelessWidget {
                     child: Row(
                       children: <Widget>[
                         GestureDetector(
+                          onTap: (){},
                           child: ReadingListCard(
                             image: "../assets/images/book-1.png",
                             title: "Crushing & Influence",
