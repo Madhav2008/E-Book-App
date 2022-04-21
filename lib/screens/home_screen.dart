@@ -274,7 +274,6 @@ class HomeScreen extends StatelessWidget {
               child: TwoSideRoundedButton(
                 text: "Read",
                 radious: 24,
-                press: () {},
               ),
             ),
           ),
