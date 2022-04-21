@@ -18,7 +18,7 @@ class ReadingListCard extends StatelessWidget {
     required this.auth,
     required this.rating,
     required this.pressDetails,
-    this.pressRead,
+    required this.pressRead,
   }) : super(key: key);
 
   @override
