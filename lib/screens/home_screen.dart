@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
                           auth: "Gary Venchuk",
                           rating: 4.9,
                           pressDetails: () {
-                            Navigator.push(
+                            return Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) {
