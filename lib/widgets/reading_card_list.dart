@@ -117,7 +117,6 @@ class ReadingListCard extends StatelessWidget {
                       Expanded(
                         child: TwoSideRoundedButton(
                           text: "Read",
-                          press: pressRead,
                         ),
                       )
                     ],
