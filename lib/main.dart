@@ -60,7 +60,16 @@ class WelcomeScreen extends StatelessWidget {
             SizedBox(
               width: MediaQuery.of(context).size.width * .6,
               child: GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return HomeScreen();
+                        },
+                      ),
+                    );
+                },
                 child: RoundedButton(
                   text: "Start reading",
                   fontSize: 20,
