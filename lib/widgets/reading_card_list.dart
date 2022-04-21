@@ -102,7 +102,7 @@ class ReadingListCard extends StatelessWidget {
                   Row(
                     children: <Widget>[
                       GestureDetector(
-                        onTap: ()=>pressDetails,
+                        onTap: () => pressDetails,
                         child: Container(
                           width: 101,
                           padding: EdgeInsets.symmetric(vertical: 10),
