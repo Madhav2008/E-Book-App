@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class RoundedButton extends StatelessWidget {
   final String text;
-  final Function press;
   final double verticalPadding;
   final double horizontalPadding;
   final double fontSize;
