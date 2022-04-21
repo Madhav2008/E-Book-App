@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                                 },
                               ),
                             );
-                          },
+                          }, pressRead: null,
                         ),
                         ReadingListCard(
                           image: "assets/images/book-2.png",
