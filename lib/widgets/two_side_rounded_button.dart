@@ -4,12 +4,10 @@ import 'package:flutter/material.dart';
 class TwoSideRoundedButton extends StatelessWidget {
   final String text;
   final double radious;
-  final Function press;
   const TwoSideRoundedButton({
     Key? key,
     required this.text,
     this.radious = 29,
-    required this.press,
   }) : super(key: key);
 
   @override
