@@ -104,7 +104,7 @@ class ReadingListCard extends StatelessWidget {
                     children: <Widget>[
                       GestureDetector(
                         onTap: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (builder)=>DetailsScreen(),))
+                          Navigator.push(context, MaterialPageRoute(builder: (builder)=>DetailsScreen(),),)
                         },
                         child: Container(
                           width: 101,
