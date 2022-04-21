@@ -6,7 +6,7 @@ class TwoSideRoundedButton extends StatelessWidget {
   final double radious;
   final Function press;
   const TwoSideRoundedButton({
-    Key key,
+    Key? key,
     this.text,
     this.radious = 29,
     this.press,
