@@ -11,7 +11,7 @@ class RoundedButton extends StatelessWidget {
   RoundedButton({
     Key? key,
     required this.text,
-    this.press,
+    required this.press,
     this.verticalPadding = 16,
     this.horizontalPadding = 30,
     this.fontSize = 16, 
