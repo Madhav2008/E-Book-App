@@ -1,5 +1,5 @@
 import 'package:ebook_app/consttants.dart';
-import 'package:book_app/widgets/book_rating.dart';
+import 'package:ebook_app/widgets/book_rating.dart';
 import 'package:book_app/widgets/rounded_button.dart';
 import 'package:flutter/material.dart';
 
