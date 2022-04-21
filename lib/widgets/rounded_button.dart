@@ -9,7 +9,7 @@ class RoundedButton extends StatelessWidget {
   final double fontSize;
 
   RoundedButton({
-    Key key,
+    Key? key,
     this.text,
     this.press,
     this.verticalPadding = 16,
