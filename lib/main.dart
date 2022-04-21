@@ -1,6 +1,6 @@
 import 'package:ebook_app/consttants.dart';
 import 'package:ebook_app/screens/home_screen.dart';
-import 'package:book_app/widgets/rounded_button.dart';
+import 'package:ebook_app/widgets/rounded_button.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
