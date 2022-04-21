@@ -230,7 +230,7 @@ class ChapterCard extends StatelessWidget {
               Icons.arrow_forward_ios,
               size: 18,
             ),
-            onPressed: press,
+            onPressed:()=> press,
           )
         ],
       ),
