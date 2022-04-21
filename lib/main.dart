@@ -73,16 +73,6 @@ class WelcomeScreen extends StatelessWidget {
                 child: RoundedButton(
                   text: "Start reading",
                   fontSize: 20,
-                  press: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return HomeScreen();
-                        },
-                      ),
-                    );
-                  },
                 ),
               ),
             ),
