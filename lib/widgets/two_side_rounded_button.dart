@@ -15,7 +15,7 @@ class TwoSideRoundedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap:()=> press,
+      onTap: () => press,
       child: Container(
         alignment: Alignment.center,
         padding: EdgeInsets.symmetric(vertical: 10),
