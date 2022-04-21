@@ -241,7 +241,7 @@ class ChapterCard extends StatelessWidget {
 class BookInfo extends StatelessWidget {
   const BookInfo({
     Key? key,
-    this.size,
+    required this.size,
   }) : super(key: key);
 
   final Size size;
