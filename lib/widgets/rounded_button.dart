@@ -17,7 +17,6 @@ class RoundedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => press,
       child: Container(
         width: double.infinity,
         alignment: Alignment.center,
