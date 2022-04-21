@@ -116,7 +116,7 @@ class ReadingListCard extends StatelessWidget {
                       ),
                       Expanded(
                         child: GestureDetector(
-                          onTap: (){},
+                          onTap: () {},
                           child: TwoSideRoundedButton(
                             text: "Read",
                           ),
