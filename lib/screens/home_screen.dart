@@ -55,7 +55,6 @@ class HomeScreen extends StatelessWidget {
                             title: "Crushing & Influence",
                             auth: "Gary Venchuk",
                             rating: 4.9,
-                            
                           ),
                         ),
                         ReadingListCard(
