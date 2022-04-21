@@ -12,7 +12,7 @@ class ReadingListCard extends StatelessWidget {
   final Function pressRead;
 
   const ReadingListCard({
-    Key key,
+    Key? key,
     this.image,
     this.title,
     this.auth,
