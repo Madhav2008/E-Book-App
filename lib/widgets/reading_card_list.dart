@@ -1,6 +1,6 @@
 import 'package:ebook_app/consttants.dart';
 import 'package:ebook_app/widgets/book_rating.dart';
-import 'package:book_app/widgets/two_side_rounded_button.dart';
+import 'package:ebook_app/widgets/two_side_rounded_button.dart';
 import 'package:flutter/material.dart';
 
 class ReadingListCard extends StatelessWidget {
