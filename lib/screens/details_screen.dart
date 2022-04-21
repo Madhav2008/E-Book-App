@@ -24,7 +24,7 @@ class DetailsScreen extends StatelessWidget {
                     height: size.height * .48,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/bg.png"),
+                        image: AssetImage("../assets/images/bg.png"),
                         fit: BoxFit.fitWidth,
                       ),
                       borderRadius: BorderRadius.only(
@@ -153,7 +153,7 @@ class DetailsScreen extends StatelessWidget {
                         top: 0,
                         right: 0,
                         child: Image.asset(
-                          "assets/images/book-3.png",
+                          "../assets/images/book-3.png",
                           width: 150,
                           fit: BoxFit.fitWidth,
                         ),
@@ -337,7 +337,7 @@ class BookInfo extends StatelessWidget {
               child: Container(
                 color: Colors.transparent,
                 child: Image.asset(
-                  "assets/images/book-1.png",
+                  "../assets/images/book-1.png",
                   height: double.infinity,
                   alignment: Alignment.topRight,
                   fit: BoxFit.fitWidth,

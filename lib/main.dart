@@ -34,7 +34,7 @@ class WelcomeScreen extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/images/Bitmap.png"),
+            image: AssetImage("../assets/images/Bitmap.png"),
             fit: BoxFit.fill,
           ),
         ),

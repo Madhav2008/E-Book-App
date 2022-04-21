@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               width: double.infinity,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("assets/images/main_page_bg.png"),
+                  image: AssetImage("../assets/images/main_page_bg.png"),
                   alignment: Alignment.topCenter,
                   fit: BoxFit.fitWidth,
                 ),
@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                     child: Row(
                       children: <Widget>[
                         ReadingListCard(
-                          image: "assets/images/book-1.png",
+                          image: "../assets/images/book-1.png",
                           title: "Crushing & Influence",
                           auth: "Gary Venchuk",
                           rating: 4.9,
@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                           pressRead: () => null,
                         ),
                         ReadingListCard(
-                          image: "assets/images/book-2.png",
+                          image: "../assets/images/book-2.png",
                           title: "Top Ten Business Hacks",
                           auth: "Herman Joel",
                           rating: 4.8,
@@ -168,7 +168,7 @@ class HomeScreen extends StatelessWidget {
                                           ),
                                         ),
                                         Image.asset(
-                                          "assets/images/book-1.png",
+                                          "../assets/images/book-1.png",
                                           width: 55,
                                         )
                                       ],
@@ -274,7 +274,7 @@ class HomeScreen extends StatelessWidget {
             right: 0,
             top: 0,
             child: Image.asset(
-              "assets/images/book-3.png",
+              "../assets/images/book-3.png",
               width: size.width * .37,
             ),
           ),
