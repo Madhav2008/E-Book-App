@@ -58,7 +58,7 @@ class WelcomeScreen extends StatelessWidget {
             SizedBox(
               width: MediaQuery.of(context).size.width * .6,
               child: RoundedButton(
-                text: "start reading",
+                text: "Start reading",
                 fontSize: 20,
                 press: () {
                   Navigator.push(
