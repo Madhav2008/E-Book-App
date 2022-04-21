@@ -263,7 +263,7 @@ class BookInfo extends StatelessWidget {
                       "Crushing &",
                       style: Theme.of(context)
                           .textTheme
-                          .headline4
+                          .headline4!
                           .copyWith(fontSize: 28),
                     ),
                   ),
