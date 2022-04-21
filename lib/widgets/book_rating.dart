@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class BookRating extends StatelessWidget {
   final double score;
   const BookRating({
-    Key key,
+    Key? key,
     this.score,
   }) : super(key: key);
 
