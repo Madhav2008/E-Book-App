@@ -12,21 +12,19 @@ class TwoSideRoundedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      child: Container(
-        alignment: Alignment.center,
-        padding: EdgeInsets.symmetric(vertical: 10),
-        decoration: BoxDecoration(
-          color: kBlackColor,
-          borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(radious),
-            bottomRight: Radius.circular(radious),
-          ),
+    return Container(
+      alignment: Alignment.center,
+      padding: EdgeInsets.symmetric(vertical: 10),
+      decoration: BoxDecoration(
+        color: kBlackColor,
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(radious),
+          bottomRight: Radius.circular(radious),
         ),
-        child: Text(
-          text,
-          style: TextStyle(color: Colors.white),
-        ),
+      ),
+      child: Text(
+        text,
+        style: TextStyle(color: Colors.white),
       ),
     );
   }
