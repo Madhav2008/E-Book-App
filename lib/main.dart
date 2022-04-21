@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-      MyApp(),
-    );
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
