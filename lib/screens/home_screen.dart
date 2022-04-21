@@ -55,17 +55,7 @@ class HomeScreen extends StatelessWidget {
                             title: "Crushing & Influence",
                             auth: "Gary Venchuk",
                             rating: 4.9,
-                            pressDetails: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) {
-                                    return DetailsScreen();
-                                  },
-                                ),
-                              );
-                            },
-                            pressRead: () => null,
+                            
                           ),
                         ),
                         ReadingListCard(
