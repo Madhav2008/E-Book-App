@@ -3,9 +3,11 @@ import 'package:ebook_app/screens/home_screen.dart';
 import 'package:ebook_app/widgets/rounded_button.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(
+void main() {
+  runApp(
       MyApp(),
     );
+}
 
 class MyApp extends StatelessWidget {
   @override
