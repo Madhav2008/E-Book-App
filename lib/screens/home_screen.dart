@@ -70,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                           title: "Top Ten Business Hacks",
                           auth: "Herman Joel",
                           rating: 4.8,
-                          pressRead: () => null, pressDetails: null,
+                          pressRead: () => null, pressDetails:()=> null,
                         ),
                         SizedBox(width: 30),
                       ],
