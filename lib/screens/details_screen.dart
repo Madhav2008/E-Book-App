@@ -180,7 +180,7 @@ class ChapterCard extends StatelessWidget {
   final Function press;
   const ChapterCard({
     Key? key,
-    this.name,
+    required this.name,
     this.tag,
     this.chapterNumber,
     this.press,
