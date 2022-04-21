@@ -48,14 +48,11 @@ class HomeScreen extends StatelessWidget {
                     scrollDirection: Axis.horizontal,
                     child: Row(
                       children: <Widget>[
-                        GestureDetector(
-                          onTap: () {},
-                          child: ReadingListCard(
-                            image: "../assets/images/book-1.png",
-                            title: "Crushing & Influence",
-                            auth: "Gary Venchuk",
-                            rating: 4.9,
-                          ),
+                        ReadingListCard(
+                          image: "../assets/images/book-1.png",
+                          title: "Crushing & Influence",
+                          auth: "Gary Venchuk",
+                          rating: 4.9,
                         ),
                         ReadingListCard(
                           image: "../assets/images/book-2.png",
