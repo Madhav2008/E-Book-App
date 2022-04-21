@@ -1,4 +1,4 @@
-import 'package:book_app/consttants.dart';
+import 'package:ebook_app/consttants.dart';
 import 'package:flutter/material.dart';
 
 class TwoSideRoundedButton extends StatelessWidget {
