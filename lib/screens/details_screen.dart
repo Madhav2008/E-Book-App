@@ -273,7 +273,7 @@ class BookInfo extends StatelessWidget {
                     padding: EdgeInsets.only(top: 0),
                     child: Text(
                       "Influence",
-                      style: Theme.of(context).textTheme.subtitle1.copyWith(
+                      style: Theme.of(context).textTheme.subtitle1!.copyWith(
                             fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
