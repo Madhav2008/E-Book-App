@@ -54,14 +54,14 @@ class HomeScreen extends StatelessWidget {
                           auth: "Gary Venchuk",
                           rating: 4.9,
                           pressDetails: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) {
+                            // Navigator.push(
+                            //   context,
+                            //   MaterialPageRoute(
+                            //     builder: (context) {
                                   return DetailsScreen();
-                                },
-                              ),
-                            );
+                                // },
+                              // ),
+                            // );
                           },
                           pressRead: () => null,
                         ),
