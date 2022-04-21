@@ -137,10 +137,12 @@ class DetailsScreen extends StatelessWidget {
                                   ),
                                   SizedBox(width: 10),
                                   Expanded(
-                                    child: RoundedButton(
-                                      text: "Read",
-                                      verticalPadding: 10,
-                                      press: () => null,
+                                    child: GestureDetector(
+                                      child: RoundedButton(
+                                        text: "Read",
+                                        verticalPadding: 10,
+                                        press: () => null,
+                                      ),
                                     ),
                                   ),
                                 ],
