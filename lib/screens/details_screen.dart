@@ -183,7 +183,7 @@ class ChapterCard extends StatelessWidget {
     required this.name,
     required this.tag,
     required this.chapterNumber,
-    this.press,
+    required this.press,
   }) : super(key: key);
 
   @override
