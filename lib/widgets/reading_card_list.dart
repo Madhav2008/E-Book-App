@@ -15,7 +15,7 @@ class ReadingListCard extends StatelessWidget {
     Key? key,
     required this.image,
     required this.title,
-    this.auth,
+    required this.auth,
     this.rating,
     this.pressDetails,
     this.pressRead,
