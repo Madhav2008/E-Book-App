@@ -60,6 +60,7 @@ class WelcomeScreen extends StatelessWidget {
             SizedBox(
               width: MediaQuery.of(context).size.width * .6,
               child: GestureDetector(
+                onTap: (){},
                 child: RoundedButton(
                   text: "Start reading",
                   fontSize: 20,
