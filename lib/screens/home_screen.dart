@@ -5,7 +5,6 @@ import 'package:ebook_app/widgets/book_rating.dart';
 import 'package:ebook_app/widgets/reading_card_list.dart';
 import 'package:ebook_app/widgets/two_side_rounded_button.dart';
 
-
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
