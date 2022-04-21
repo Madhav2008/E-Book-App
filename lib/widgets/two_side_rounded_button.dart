@@ -9,7 +9,7 @@ class TwoSideRoundedButton extends StatelessWidget {
     Key? key,
     required this.text,
     this.radious = 29,
-    this.press,
+    required this.press,
   }) : super(key: key);
 
   @override
