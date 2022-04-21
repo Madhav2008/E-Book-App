@@ -48,22 +48,24 @@ class HomeScreen extends StatelessWidget {
                     scrollDirection: Axis.horizontal,
                     child: Row(
                       children: <Widget>[
-                        ReadingListCard(
-                          image: "../assets/images/book-1.png",
-                          title: "Crushing & Influence",
-                          auth: "Gary Venchuk",
-                          rating: 4.9,
-                          pressDetails: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) {
-                                  return DetailsScreen();
-                                },
-                              ),
-                            );
-                          },
-                          pressRead: () => null,
+                        GestureDetector(
+                          child: ReadingListCard(
+                            image: "../assets/images/book-1.png",
+                            title: "Crushing & Influence",
+                            auth: "Gary Venchuk",
+                            rating: 4.9,
+                            pressDetails: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return DetailsScreen();
+                                  },
+                                ),
+                              );
+                            },
+                            pressRead: () => null,
+                          ),
                         ),
                         ReadingListCard(
                           image: "../assets/images/book-2.png",
