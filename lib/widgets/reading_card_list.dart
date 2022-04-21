@@ -13,7 +13,7 @@ class ReadingListCard extends StatelessWidget {
 
   const ReadingListCard({
     Key? key,
-    this.image,
+    required this.image,
     this.title,
     this.auth,
     this.rating,
